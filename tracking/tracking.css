@@ -1,0 +1,188 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #000;
+    background-color: #fff;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 18px;
+}
+
+h2 {
+    font-size: 14px;
+}
+
+header .header-links {
+    text-align: right;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+/* Estilo para os links no header */
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+header h1 a:visited {
+    color: white;
+}
+
+header .header-links a {
+    color: #fff;
+    margin: 0 10px;
+}
+
+header .header-links a:visited {
+    color: white;
+}
+
+header .header-links a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+header .header-links a:active {
+    color: white;
+}
+
+header .saldo-container {
+    text-align: right;
+}
+
+.saldo-container p {
+    margin: 0;
+    font-weight: bold;
+}
+
+/* Seção de progresso geral */
+.progress-overview {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.progress-details {
+    width: 50%;
+    line-height: 1.8;
+}
+
+.progress-chart {
+    width: 50%;
+    text-align: center;
+}
+
+.pie-chart {
+    margin: 18px auto;
+    width: 182px;
+    height: 182px;
+    background: conic-gradient(
+        #3B2787 0% 79%,
+        #33E5B0 79% 100%
+    );
+    border-radius: 50%;
+    position: relative;
+}
+
+.pie-chart .slice {
+    position: absolute;
+    font-size: 0.8em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.slice-grain {
+    top: 15%;
+    left: 65%;
+}
+
+.slice-portfel {
+    top: 51%;
+    left: 25%;
+}
+
+/* Barras de progresso */
+.progress-bars {
+    margin: 20px;
+}
+
+.bar {
+    margin-bottom: 15px;
+}
+
+.bar p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+.bar-track {
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    height: 20px;
+    width: 100%;
+    margin-top: 5px;
+    position: relative;
+}
+
+.bar-fill {
+    background-color: #ff6600;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+}
+
+footer {
+    background-color: #ff6600;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+h1:visited {
+    color: white;
+}
+
+header h1 a:visited {
+    color: white;
+}
+
+.percentage {
+    font-size: 1em;
+    font-weight: bold;
+    position: absolute;
+}
+
+.percentage-grain {
+    color: black;
+    top: 29%;
+    left: 71%;
+    transform: translate(-50%, -50%);
+}
+
+.percentage-portfel {
+    color: #e0e0e0;
+    top: 42%;
+    left: 78%;
+    transform: translate(-50%, -50%);
+}
+
+.spacer {
+    margin: 70px 0;
+}
