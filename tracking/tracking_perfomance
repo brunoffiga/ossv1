@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perfil</title>
+  <link rel="stylesheet" href="tracking.css">
+</head>
+<body>
+    <header>
+        <h1><a href="C:\Users\bruno.figueiredo\Documents\VScode\OSS\MVP\oss.html">Grupo Primo | One Stop Shop</a></h1>
+        <div class="header-links">
+            <a href="C:\Users\bruno.figueiredo\Documents\VScode\OSS\MVP\qea\bot_qea.html">Sugestões para mim</a>
+            <a href="tracking_performance.html" class="active">Perfil</a>
+            <a href="tracking_performance.html" class="active">Certificações</a>
+            <a href="tracking_performance.html" class="active">Rewards & badges</a>
+            <a href="tracking_performance.html" class="active">Colaboradores</a>
+        </div>
+        <div class="saldo-container">
+            <p>Saldo da carteira</p>
+            <p>R$ 14.996,50</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="progress-overview">
+            <div class="progress-details">
+                <div class="spacer"></div>
+                <p><strong>Dinheirama:</strong> 760 matérias lidas </p>
+                <p><strong>Finclass:</strong> 1264 horas dedicadas <b><i><small> top 0,05%</small></i></b></p>
+                <p><strong>TopInvest:</strong> CPA-10, CPA-20 e CEA</p>
+            </div>
+            <div class="progress-chart">
+                <h2>Investimentos: R$ 52.187,00</h2>
+                <div class="pie-chart">
+                </div>
+                <div class="percentage percentage-grain">21%</div>
+                <div class="percentage percentage-portfel">79%</div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="progress-bars">
+            <div class="bar">
+                <p><b>Consultor de Elite</b></p>
+                <div class="bar-track">
+                    <div class="bar-fill" style="width: 40%;"></div>
+                </div>
+            </div>
+            <div class="bar">
+                <p><b>Underclub</b></p>
+                <div class="bar-track">
+                    <div class="bar-fill" style="width: 60%;"></div>
+                </div>
+            </div>
+            <div class="bar">
+                <p><b>Graduação HUB</b></p>
+                <div class="bar-track">
+                    <div class="bar-fill" style="width: 50%;"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Grupo Primo. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
