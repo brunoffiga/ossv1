@@ -79,7 +79,7 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px 0;
-    position: absolute; /* Fixar o rodapé no final */
+    position: static;
     bottom: 0;
     width: 100%; /* Garantir que o rodapé ocupe toda a largura */
 }
